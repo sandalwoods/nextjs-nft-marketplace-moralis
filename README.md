@@ -1,3 +1,6 @@
+
+Note: use npm to install the dependencies, If use yarn, it will cause wired error.
+
 1. Home Page:
     - Show recently listed NFTs
         - If you own the NFT, you can update the listing
