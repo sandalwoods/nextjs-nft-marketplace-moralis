@@ -8,6 +8,7 @@ Note: use npm to install the dependencies, If use yarn, it will cause wired erro
 
 2. Sell Page:
     - You can list your NFT on the marketplace
+    - Withdraw the proceeds
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 

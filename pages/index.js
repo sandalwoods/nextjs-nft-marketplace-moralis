@@ -1,7 +1,6 @@
 import Image from "next/image"
 import styles from "../styles/Home.module.css"
 import { useMoralisQuery, useMoralis } from "react-moralis"
-// import { list } from "postcss"
 import NFTBox from "../components/NFTBox"
 
 export default function Home() {
@@ -17,7 +16,7 @@ export default function Home() {
         (query) => query.limit(10).descending("tokenId")
     )
     const { isWeb3Enabled } = useMoralis()
-    console.log(listedNfts)
+    // console.log(listedNfts)
 
     return (
         <div className="container mx-auto">
